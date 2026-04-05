@@ -1,0 +1,22 @@
+/* Variáveis de Cores Baseadas na Logo */
+:root {
+    --bg-color: #06312a;       /* Verde escuro do fundo */
+    --primary-green: #42a846;  /* Verde vibrante das letras */
+    --text-light: #ffffff;     /* Branco para contraste */
+    --text-gray: #b0c4c0;      /* Cinza claro para textos de apoio */
+}
+
+/* Reset Básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: var(--bg-color);
+    color: var(--text-light);
+    line-height: 1.6;
+    overflow: hidden;
+}
