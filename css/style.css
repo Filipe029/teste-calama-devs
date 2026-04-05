@@ -18,7 +18,6 @@ body{
     background-color: var(--bg-color);
     color: var(--text-light);
     line-height: 1.6;
-    overflow: hidden;
 }
 
 /* ===== CABEÇALHO ===== */
