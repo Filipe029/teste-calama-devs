@@ -73,7 +73,7 @@ nav a:hover {
     align-items: center;
     text-align: center;
     padding: 0 1rem;
-    background: linear-gradient(135deg, #06312a 0%, #031a16 100%);
+    background: linear-gradient(135deg, rgba(6, 49, 42, 0.85) 0%, rgba(3, 26, 22, 0.95) 100%), url('../img/fundo.jpg') center/cover no-repeat;
 }
 
 .hero h1 {
