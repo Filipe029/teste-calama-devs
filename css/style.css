@@ -145,7 +145,7 @@ nav a:hover {
 /* Grid de Diferenciais */
 .features-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
 }
 
@@ -253,4 +253,7 @@ footer {
 @media (max-width: 768px) {
     .hero h1 { font-size: 2.5rem; }
     nav ul { display: none; }
+    
+    /* Coloca os cards um embaixo do outro em telas menores */
+    .features-grid { grid-template-columns: 1fr; }
 }
