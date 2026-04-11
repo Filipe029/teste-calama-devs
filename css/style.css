@@ -32,7 +32,7 @@ header {
     justify-content: space-between;
     align-items: center;
     background-color: rgba(6, 49, 42, 0.95);
-    position: fixed;
+    position: sticky;
     width: 100%;
     top: 0;
     z-index: 100;
